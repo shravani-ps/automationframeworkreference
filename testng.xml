@@ -5,9 +5,8 @@
   <test  name="Test">
     <classes>
      
-      <class name = "testPages.LoginPage_Tests"/>
-      <class name = "testPages.SalesManager_Tests"/>
-      <class name = "testPages.VerificationManager"/>
+      <class name = "testPages.Logintestcase"/>
+     
       
     </classes>
   </test> <!-- Test -->

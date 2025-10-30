@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPages.LoginPage_Tests">
+      <class name="testPages.Logintestcase">
         <methods>
-          <include name="setupMethod"/>
-          <include name="APMTlogins"/>
-          <include name="cleanUp"/>
+          <include name="verifylogin"/>
+          <include name="initconfiguration"/>
         </methods>
-      </class> <!-- testPages.LoginPage_Tests -->
+      </class> <!-- testPages.Logintestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
