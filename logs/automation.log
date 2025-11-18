@@ -1,0 +1,30 @@
+16:35:16.700 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 
+16:35:20.106 [main] INFO  testPages.Logintestcase - successfully completed
+16:35:20.177 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+16:35:20.199 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shravani\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+16:35:20.224 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 141)
+16:35:20.266 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\shravani\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:35:23.481 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 
+16:35:27.034 [main] INFO  testPages.Logintestcase - successfully completed
+16:35:27.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+16:35:27.395 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shravani\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+16:35:27.423 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 141)
+16:35:27.461 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\shravani\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:35:31.116 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 
+16:42:30.964 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+16:42:30.994 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shravani\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+16:42:31.009 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 141)
+16:42:31.021 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\shravani\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:42:34.310 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 
+16:42:40.437 [main] INFO  testPages.Logintestcase - successfully completed
+16:42:40.923 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+16:42:40.933 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shravani\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+16:42:40.942 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 141)
+16:42:40.951 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\shravani\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:42:43.318 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 
+16:42:46.632 [main] INFO  testPages.Logintestcase - successfully completed
+16:42:46.986 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+16:42:46.995 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\shravani\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+16:42:47.006 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 141)
+16:42:47.016 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\shravani\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe
+16:42:49.299 [main] INFO  testPages.Logintestcase -  ***** first login test ****** 

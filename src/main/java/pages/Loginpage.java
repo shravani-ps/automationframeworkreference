@@ -1,15 +1,19 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import testBase.Basepage;
+
 
 public class Loginpage extends Basepage {
 	
-	WebDriver driver;
+	public Loginpage(WebDriver driver) {
+		super(driver);
+		
+	}
 	
 	
 	@FindBy(xpath = "//input[@id='email']")
@@ -22,24 +26,39 @@ public class Loginpage extends Basepage {
 	WebElement btnLogin;
 
 
-	public void setEmail() {
-		txtEmailAddress.sendKeys("karunmca8@gmail.com");
+	public void setEmail(String username) {
+		txtEmailAddress.sendKeys(username);
 	}
 
-	public void setPassword() {
-		txtPassword.sendKeys("Admin@123");
+	public void setPassword(String password) {
+		txtPassword.sendKeys(password);
 	}
 
 	public void clickLogin() {
 		btnLogin.click();
 	}
 	
-	public Loginpage(WebDriver driver)
-	{
-	this.driver=driver;
-	PageFactory.initElements(driver, this);
-		
-	}
+	
 	
 
-}
+	public void login(String username, String password) {
+		// TODO Auto-generated method stub
+		setEmail(username);
+		setPassword(password);
+		clickLogin();
+	}
+	
+	    /** ✅ Check if login is successful */
+	    public boolean isLoginSuccessful() {
+	        try {
+	            // Example: check that a logout link or dashboard appears
+	            return driver.findElement(By.xpath("//a[@routerlink='./f']")).isDisplayed();
+	            // or check for title, URL, etc.:
+	            // return driver.getTitle().contains("Dashboard");
+	        } catch (Exception e) {
+	            return false;
+	        }
+	    }
+	}
+
+

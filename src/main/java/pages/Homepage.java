@@ -5,12 +5,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import testBase.Basepage;
 
-public class Homepage extends Basepage {
+
+public class Homepage extends Basepage  {
 
 	
-	WebDriver driver;
+	public Homepage(WebDriver driver) {
+		super(driver);
+		
+	}
       
 	
 	@FindBy(xpath="//button[text()='Login']")
@@ -20,11 +23,7 @@ public class Homepage extends Basepage {
 	{
 	loginbtn.click();
 	}
-	 public Homepage(WebDriver driver) 
-     {
-		this.driver=driver;
-		PageFactory.initElements(driver, this);
-	    }
+	
 
 	
 	
